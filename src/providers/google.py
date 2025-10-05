@@ -528,3 +528,5 @@ class GoogleCalendarProvider(CalendarProvider):
                 
         except httpx.HTTPError as e:
             raise CalendarProviderError(f"Failed to get user info: {e}", self.provider_name)
+
+

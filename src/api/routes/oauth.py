@@ -395,3 +395,5 @@ async def get_oauth_token(db: AsyncSession, user_id: int, provider: str) -> Opti
     )
     result = await db.execute(stmt)
     return result.scalar_one_or_none()
+
+

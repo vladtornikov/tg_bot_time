@@ -635,3 +635,5 @@ async def get_user_meetings(
     except Exception as e:
         logger.error(f"Error getting user meetings: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail="Failed to get user meetings")
+
+

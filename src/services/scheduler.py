@@ -539,3 +539,5 @@ class SchedulerService:
         
         result = await self.db.execute(stmt)
         return result.scalars().all()
+
+

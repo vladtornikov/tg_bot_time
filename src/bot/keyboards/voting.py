@@ -244,3 +244,5 @@ def create_vote_type_keyboard(
     )
     
     return builder.as_markup()
+
+

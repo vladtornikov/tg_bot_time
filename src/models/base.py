@@ -57,3 +57,5 @@ class SoftDeleteMixin:
     def restore(self) -> None:
         """Restore a soft deleted record."""
         self.deleted_at = None
+
+

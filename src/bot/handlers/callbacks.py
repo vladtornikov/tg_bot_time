@@ -412,3 +412,5 @@ The system is now finding available time slots...
         creation_text,
         parse_mode="HTML"
     )
+
+

@@ -286,3 +286,5 @@ class RosterService:
         stmt = select(Chat).where(Chat.is_active == True)
         result = await self.db.execute(stmt)
         return len(result.scalars().all())
+
+

@@ -128,3 +128,5 @@ class MeetingParticipant(Base, TimestampMixin):
     
     def __repr__(self) -> str:
         return f"<MeetingParticipant(id={self.id}, meeting_id={self.meeting_id}, user_id={self.user_id}, role='{self.role.value}')>"
+
+

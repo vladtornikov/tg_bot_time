@@ -18,3 +18,5 @@ class StagingSettings(Settings):
     
     class Config:
         env_file = ".env.staging"
+
+

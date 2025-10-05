@@ -262,3 +262,5 @@ class WebhookResponse(BaseModel):
     success: bool = Field(..., description="Webhook setup success indicator")
     url: str = Field(..., description="Webhook URL")
     message: str = Field(..., description="Response message")
+
+

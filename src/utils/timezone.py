@@ -50,3 +50,5 @@ def parse_datetime(dt_str: str, user_tz: str, format_str: str = "%Y-%m-%d %H:%M"
     dt = datetime.strptime(dt_str, format_str)
     dt = user_timezone.localize(dt)
     return dt.astimezone(timezone.utc)
+
+

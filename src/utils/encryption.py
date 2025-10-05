@@ -42,3 +42,5 @@ class EncryptionService:
 
 # Global encryption service instance
 encryption_service = EncryptionService()
+
+

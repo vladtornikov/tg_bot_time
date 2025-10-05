@@ -29,3 +29,5 @@ USER appuser
 
 # Run the worker
 CMD ["celery", "-A", "src.workers.celery_app", "worker", "--loglevel=info", "--concurrency=4"]
+
+

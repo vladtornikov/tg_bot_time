@@ -300,3 +300,5 @@ def get_voting_help() -> str:
 • The organizer will see all votes
 • You can change your vote anytime
     """.strip()
+
+

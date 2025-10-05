@@ -116,3 +116,5 @@ class ChatMembership(Base, TimestampMixin):
     
     def __repr__(self) -> str:
         return f"<ChatMembership(id={self.id}, chat_id={self.chat_id}, user_id={self.user_id}, role='{self.role}')>"
+
+

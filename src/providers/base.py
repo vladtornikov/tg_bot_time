@@ -159,3 +159,5 @@ class PermissionError(CalendarProviderError):
 class EventNotFoundError(CalendarProviderError):
     """Event not found error."""
     pass
+
+

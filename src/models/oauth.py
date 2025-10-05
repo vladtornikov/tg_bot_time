@@ -52,3 +52,5 @@ class OAuthToken(Base, TimestampMixin):
     
     def __repr__(self) -> str:
         return f"<OAuthToken(id={self.id}, user_id={self.user_id}, provider='{self.provider}')>"
+
+

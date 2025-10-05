@@ -20,13 +20,25 @@ test: ## Run all tests
 	pytest
 
 test-unit: ## Run unit tests
-	pytest tests/unit/
+	pytest tests/unit/ -m unit
 
 test-integration: ## Run integration tests
-	pytest tests/integration/
+	pytest tests/integration/ -m integration
 
 test-e2e: ## Run end-to-end tests
-	pytest tests/e2e/
+	pytest tests/e2e/ -m e2e
+
+test-coverage: ## Run tests with coverage report
+	pytest --cov=src --cov-report=html --cov-report=term
+
+test-fast: ## Run fast tests only
+	pytest -m "not slow"
+
+test-parallel: ## Run tests in parallel
+	pytest -n auto
+
+test-watch: ## Run tests in watch mode
+	pytest-watch
 
 lint: ## Run linting
 	flake8 src tests

@@ -55,3 +55,5 @@ def get_sync_session():
         yield session
     finally:
         session.close()
+
+

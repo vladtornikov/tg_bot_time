@@ -23,3 +23,5 @@ class DevelopmentSettings(Settings):
     
     class Config:
         env_file = ".env.development"
+
+

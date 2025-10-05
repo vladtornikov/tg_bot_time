@@ -276,3 +276,5 @@ def create_participant_help_keyboard() -> InlineKeyboardMarkup:
     )
     
     return builder.as_markup()
+
+

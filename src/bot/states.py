@@ -69,3 +69,5 @@ class ParticipantSelectionStates(StatesGroup):
     # Final states
     PARTICIPANTS_SELECTED = State()
     PARTICIPANTS_CANCELED = State()
+
+
